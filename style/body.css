@@ -1,0 +1,76 @@
+@import "article.css";
+
+.body-type-section {
+    background-image: url("../img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.body-section {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--shadow);
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-100);
+}
+
+.body-section p {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: normal;
+    letter-spacing: 8px;
+}
+
+.body-section h2 {
+    width: 600px;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: normal;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.body-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-button button {
+    width: 188px;
+    height: 46px;
+    color: var(--gray-100);
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.body-button button:first-child {
+    margin-right: 10px;
+    background-color: var(--red-600);
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.body-button button:last-child {
+    margin-left: 10px;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    border: 1px solid var(--gray-100);
+}
+
+.body-button button:last-child:hover {
+    background-color: var(--red-600);
+    border: none;
+}
+
+.body-button button:first-child:hover {
+    background-color: transparent;
+    border: 1px solid var(--gray-100);
+}

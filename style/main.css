@@ -1,0 +1,184 @@
+@import "colorScheme.css";
+@import "body.css";
+@import "user.css";
+@import "footer.css";
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    max-height: 50px;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-color: var(--gray-100);
+    color: var(--gray-800);
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul:last-child {
+
+}
+
+header ul li {
+    border-right: 1px solid var(--gray-800);
+    list-style-type: none;
+    margin: 0 4px;
+    padding-right: 6px;
+    color: var(--gray-800);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+header ul li:last-child {
+    border: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    text-align-last: center;
+    margin: 6px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--gray-900);
+}
+
+header ul li i {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.fa-home {
+    color: var(--red-600);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa-phone {
+    transform: rotate(90deg);
+}
+
+nav {
+    max-height: 80px;
+    width: 100%;
+    margin: 0;
+    background-color: var(--gray-300);
+    color: var(--gray-800);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Harlow Solid Italic";
+    font-weight: normal;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 248px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 200px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.home-second:last-child {
+    color: var(--red-500);
+}
+
+.top-menu li a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--gray-800);
+    transition-duration: 1.5s;
+}
+
+.top-menu {
+    position: relative;
+}
+
+.top-menu li a:hover {
+    color: var(--red-500);
+}
+
+.first-nav {
+    width: 170px;
+    height: 200px;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 28px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-nav li {
+    border-bottom: 1px solid var(--gray-400);
+    background-color: var(--gray-shadow);
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.first-nav li:hover {
+    background-color: var(--red-500);
+    color: var(--gray-100);
+}
+
+.first-nav li a {
+    width: 168px;
+    margin: 0;
+    padding: 10px 60px 10px 10px;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+}
+
+.first-nav li:hover a {
+    color: var(--gray-100);
+}
+
+.first-child {
+    cursor: pointer;
+    opacity: 0;
+    border: none;
+}
+
+.first-child a {
+    cursor: pointer;
+}
+
+.first-menu {
+    transition-duration: 1s;
+}
+
+.first-menu:hover .first-nav {
+    display: block;
+    transition-duration: 1s;
+}
+
+

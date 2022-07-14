@@ -1,0 +1,163 @@
+footer {
+    background: url("../img/footer.jpg") no-repeat;
+    min-height: 484px;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+.footer-shadow {
+    height: 484px;
+    background-size: cover;
+    background-color: var(--shadow);
+    margin: 0;
+    padding: 80px 160px 0;
+    position: relative;
+}
+
+.first-shadow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-shadow article h6 {
+    color: var(--gray-100);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "Harlow Solid Italic";
+}
+
+.shadow-part {
+    width: 224px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6em;
+}
+
+.shadow-part a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Verdana;
+    color: var(--red-600);
+    margin: 10px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--gray-600);
+}
+
+.shadow-part i {
+    font-size: 16px;
+    margin: 10px 0;
+    padding-bottom: 20px;
+    color: var(--gray-500);
+    border-bottom: 1px solid var(--gray-600);
+    box-sizing: border-box;
+}
+
+.first-icon {
+    width: 170px;
+    box-sizing: border-box;
+    margin-left: 4px;
+}
+
+.fa-map-marker {
+    padding-right: 10px;
+}
+
+.shadow-part i:before {
+    padding: 0 10px 10px 0;
+}
+
+.shadow-part i:first-child {
+    margin-right: 8px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media a {
+    border: none;
+    transition-duration: 1s;
+}
+
+.social-media a i {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 12px 0 0 12px;
+    background-color: var(--gray-400);
+    color: var(--gray-700);
+    transition-duration: 1.5s;
+}
+
+.social-media a i:hover {
+    color: var(--gray-100);
+    background-color: var(--red-600);
+}
+
+.shadow-part .fa-phone {
+    transform: none;
+}
+
+.shadow-part p {
+    color: var(--gray-100);
+    line-height: 1.0em;
+}
+
+.shadow-part form input {
+    height: 40px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.shadow-part button {
+    width: 170px;
+    height: 40px;
+    color: var(--gray-100);
+    background-color: var(--red-600);
+    border: none;
+    letter-spacing: 1px;
+    transition-duration: 1.0s;
+}
+
+.shadow-part button:hover {
+    background-color: transparent;
+    border: 1px solid var(--gray-100);
+}
+
+.shadow-part a:last-child {
+    border: none;
+}
+
+.last-shadow {
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: var(--shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray-600);
+    padding: 0 166px;
+}
+
+.last-section {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--gray-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section img {
+    margin-top: 40px;
+}
